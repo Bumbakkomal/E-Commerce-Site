@@ -14,7 +14,4 @@ Installation
 To set up the e-commerce site locally, follow these steps:
 
 # Clone the repository:
-
-bash
-Copy code
-https://github.com/Bumbakkomal/E-Commerce-Site/new/main?filename=README.md
+https://github.com/Bumbakkomal/E-Commerce-Site
