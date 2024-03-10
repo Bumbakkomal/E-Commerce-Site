@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="images/product1.png" alt="" onclick="clickme(this)">
+                        <img src="images/product2.png" alt="" onclick="clickme(this)">
+                        <img src="images/product3.png" alt="" onclick="clickme(this)">
+                        <img src="images/product4.png" alt="" onclick="clickme(this)">
+
+                    </div>
+                    <div class="preview">
+                        <img src="images/product1.png" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <p class="brand">Brand: BullionKnot</p>
+                    <h2>Pen Kalamkari Lehenga Set</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">Rs.2,352.00</p>
+                    <p>Size: <select name="size">
+
+                            <option value="select size">Select size</option>
+                            <option value="small">small</option>
+                            <option value="medium">medium</option>
+                            <option value="large">large</option>
+
+                        </select></p>
+                    <p>Quantity: <input type="text" value="1"></p>
+                    <button type="button">
+                        <i class="fa fa-shopping-cart"></i>
+                        Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="For you">
+            <h2>related items</h2>
+            <div class="row">
+                <div class="columns">
+                    <div class="items">
+                        <img src="images/item1.png" alt="">
+                        <div class="details">
+                            <p>Black Embellished Sequinned Saree</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+
+                            <p>Rs.985.00
+                                (10%off)</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="images/item2.png" alt="">
+                        <div class="details">
+                            <p>Women Pleated Green Dress</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>Rs.899.00
+                                (50% off)</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="images/item3.png" alt="">
+                        <div class="details">
+                            <p>Women Cotton Blend Ethnic Top Pant Dupatta Set</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>Rs.609.00(10% off)</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="images/item4.png" alt="">
+                        <div class="details">
+                            <p>Nitya Sudha Jacket Dress</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>Rs.999 
+                                (20% off)</p>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
